@@ -11,7 +11,7 @@ module ActiveMerchant #:nodoc:
         
         # Overwrite this if you want to change the ANS production url
         mattr_accessor :production_url 
-        self.production_url = 'https://secure.authorize.net/gateway/transact.dll' 
+        self.production_url = 'https://secure2.authorize.net/gateway/transact.dll' 
         
         def self.service_url
           mode = ActiveMerchant::Billing::Base.integration_mode
